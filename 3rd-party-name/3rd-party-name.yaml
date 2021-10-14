@@ -1,0 +1,26 @@
+-  description: 3rd-party account service
+   request:
+      url: /3rd/get/account
+      method: POST
+      headers:
+         content-type: application/json
+      file: ./3rd-party-name/account/accountRequest.json
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: ./3rd-party-name/account/accountResponse.json
+
+-  description: 3rd-party balance service
+   request:
+      url: /3rd/get/balance
+      method: POST
+      headers:
+         content-type: application/json
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: ./3rd-party-name/balance/balanceResponse.json
