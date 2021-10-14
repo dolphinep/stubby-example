@@ -123,18 +123,7 @@ defining api in 3rd-party-name.yaml
 3rd-party-name/balance/balanceResponse.json
 ```json
 {
-   "objects": [
-       {
-           "key": "value"
-       },
-       {
-           "key": "value"
-       },
-       {
-           "key": {
-               "key": "(.*)"
-           }
-       }
-   ]
+    "total": 1000000,
+    "name": "ping"
 }
 ```
