@@ -56,8 +56,8 @@ then define each api in sub folder for example accout, balance
 ├── ...
 ├── 3rd-party-name-1            # 3rd party name 
 │   ├── account                 # account service 
-│   └── balance                 # balance service 
-│       3rd-party-name.ymal     # for define api in 3rd party 
+│   ├── balance                 # balance service 
+│   └── 3rd-party-name.yaml     # for define api in 3rd party 
 ├── 3rd-party-name-2
 ├── logs                        # logs files
 │   ├── stubby4j.log
