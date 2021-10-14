@@ -95,15 +95,3 @@
       status: 200
       body: >
          {"internalKey": "<%post.1%>"}
-
--  request:
-      method: POST
-      url: /v1/post-no-body-as-json-4
-      headers:
-         content-type: application/json
-
-   response:
-      headers:
-         content-type: application/json
-      status: 200
-      file: ./post-no-body/responseBody.json
